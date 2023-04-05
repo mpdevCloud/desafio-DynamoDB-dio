@@ -1,0 +1,36 @@
+{
+  "RequestItems": {
+    "Livro": [
+      {
+        "PutRequest": {
+          "Item": {
+            "Title": { "S": "Memórias Póstumas de Brás Cubas" },
+            "Author": { "S": "Machado de Assis" },
+            "BookPublisher": { "S": "Tipografia Nacional" },
+            "NumberPagination": { "S": "500" }
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "Title": { "S": "O Cortiço" },
+            "Author": { "S": "Aluísio Azevedo" },
+            "BookPublisher": { "S": "Richard Graham" },
+            "NumberPagination": { "S": "550" }
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "Title": { "S": "A Moreninha" },
+            "Author": { "S": "Joaquim Manuel de Macedo" },
+            "BookPublisher": { "S": "Tipografia Nacional" },
+            "NumberPagination": { "S": "500" }
+          }
+        }
+      }
+    ]
+  }
+}
